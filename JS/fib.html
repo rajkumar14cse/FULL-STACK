@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <script>
+        function printFibonacciSeries(n) {
+            let fibSeries = [];
+            let a = 0,
+                b = 1;
+
+            for (let i = 0; i < n; i++) {
+                fibSeries.push(a);
+                let next = a + b;
+                a = b;
+                b = next;
+            }
+
+            console.log(`Fibonacci Series up to ${n} terms: ${fibSeries.join(', ')}`);
+        }
+
+        // Example usage: print the first 10 Fibonacci numbers
+        const numberOfTerms = 10; // Change this value to get more or fewer terms
+        printFibonacciSeries(numberOfTerms);
+    </script>
+
+    <body>
+
+</html>
