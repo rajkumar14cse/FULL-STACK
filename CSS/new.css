@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    /* Replace with your image */
+    background-size: cover;
+}
+
+.navbar-brand {
+    text-align: center;
+}
